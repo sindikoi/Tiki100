@@ -1,35 +1,29 @@
 {
   "expo": {
-    "name": "TIKI100",
-    "slug": "mobileapp",
+    "name": "Tiki100",
+    "slug": "mobileApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/tiki100.png",
-    "scheme": "myapp",
-    "userInterfaceStyle": "automatic",
+    "icon": "./assets/tiki.jpeg",
+    "userInterfaceStyle": "light",
     "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/tiki.jpeg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/tiki100.png",
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "edgeToEdgeEnabled": true
     },
     "web": {
-      "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
-    },
-    "splash": {
-      "image": "./assets/images/tiki100.png",
-      "resizeMode": "cover",
-      "backgroundColor": "#ffccff"
-    },
-
-    "experiments": {
-      "typedRoutes": true
+      "favicon": "./assets/favicon.png"
     }
   }
 }
